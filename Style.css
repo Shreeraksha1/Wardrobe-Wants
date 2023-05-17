@@ -150,7 +150,6 @@ form {
 
 a {
   text-decoration: none;
-  color: hwb(0 96% 0%);
 }
 
 .icon {
@@ -172,6 +171,7 @@ a {
 
 .ln {
   padding: 1rem 1.5rem;
+  color: hwb(0 96% 0%);
 }
 
 .ww {
@@ -226,21 +226,17 @@ a {
 
 }
 
-.sign-up {
-  position: absolute;
-  width: 136px;
-  height: 37px;
-  left: calc(50% - 136px/2);
-  top: calc(50% - 37px/2 - 1581.5px);
+.wbtn {
+ top: 40px;
 
   border: 1px solid #FFFFFF;
-  border-radius: 2px;
+  border-radius: 0px;
 }
 
 .top {
+  margin-top: 2rem;
   padding: 1rem;
   text-align: center;
-  top: 2rem;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
@@ -307,13 +303,12 @@ a {
   margin-right: 9rem;
 }
 
-.icon {
+.icons {
   font-family: 'Montserrat';
   color: #000000;
   font-style: normal;
-  margin-top: 30px;
+  margin-top: 4rem;
   display: flex
-  
 }
 .icm{
 font-style: normal;
@@ -332,4 +327,82 @@ line-height: 43px;
 font-size: 14px;
 line-height: 17px;
 letter-spacing: 0.06em;
+}
+.bbtn{
+  width: 130px;
+  --bs-border-radius: 0;
+  border: 1px solid #000000;
+
+}
+.kid{
+  margin-top: 7rem;
+  margin-left: 1.5rem;
+}
+.wt {
+  padding-top: 100px;
+  background-color: #ffffff;
+  text-decoration: none;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.06em;
+}
+.iconw {
+  height: 30px;
+  margin: 30px auto;
+  line-height: 20px;
+  color: #000000;
+}
+.linkw {
+  height: 30px;
+  margin: 1rem auto 2rem;
+  line-height: 20px;
+}
+.in-fw{
+  display: inline-block;
+  width: 35%;
+  fill: none;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #000000;
+  /* margin-bottom: 16px; */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.06em;
+  color: #000000;
+}
+.lnw {
+  padding: 1rem 1.5rem;
+  color: hwb(0 8% 92%);
+}
+.kid{
+ width: 300px;
+ bottom: 300px;
+}
+.kid-n{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 43px;
+  color: #FFFFFF;
+}
+.kid-p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
 }
